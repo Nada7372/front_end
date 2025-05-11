@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0b0f;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+}
+
+.header h2 {
+    font-size: 40px;
+    color: rgb(247, 203, 10);
+    margin: 20px 0;
+    text-align: left;
+}
+
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.left {
+    width: 30%;
+    padding: 20px;
+}
+
+.left h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    color: #f6b904;
+}
+
+.left img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 0;
+}
+
+.left p {
+    font-size: 14px;
+    color: #ccc;
+    margin: 10px 0;
+}
+
+.year {
+    color: #888;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.rating-text {
+    background: #444;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.award-box, .nomination-box, .awards-box, .review-count-box, .MetaScore-box {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.award-box {
+    background: #79b121; 
+}
+
+.nomination-box {
+    background: #ff4500; 
+}
+
+.awards-box {
+    background: #8b4513; 
+}
+
+.review-count-box {
+    background: #00b7eb; 
+}
+
+.MetaScore-box {
+    background: #ffa500; 
+}
+
+.award-box p, .nomination-box p, .awards-box p, .review-count-box p, .MetaScore-box p {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+.right {
+    width: 70%;
+    padding: 20px;
+}
+
+.right h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    color: #ffa500;
+}
+
+
+.review-box {
+    background: #2d2d2d;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.review-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.reviewer {
+    color: #f6b904;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.review-box p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.stars {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffd700;
+}
+
+@media (max-width: 768px) {
+    .left, .right {
+        width: 100%;
+    }
+
+    .header h2 {
+        font-size: 24px;
+    }
+
+    .box1 {
+        margin-top: -30px;
+    }
+
+    .box1 p {
+        font-size: 14px;
+    }
+
+    .right h2 {
+        font-size: 24px;
+    }
+
+    .review-box h3 {
+        font-size: 18px;
+    }
+
+    .review-box p {
+        font-size: 14px;
+    }
+
+    .award-box p, .nomination-box p, .awards-box p, .review-count-box p, .MetaScore-box p {
+        font-size: 20px;
+    }
+}
