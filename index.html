@@ -4,46 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-
-        background-color: rgb(53, 125, 218);
-
-        }
-            pre{
-                color: white;
-            margin-left: 240px;
-            }
-        span{
-            color: rgb(238, 235, 235);
-            margin-left: 240px;
-        }
-    img{
-        margin-top: 40px;
-        color: white;
-        margin-left: 240px;
-    }
-    a{
-        color: rgb(15, 15, 15);
-        margin-left: 240px;
-    }
-
-    </style>
+    <link rel="stylesheet"    href="styel.css">
 </head>
-<body >
-    <section>
-    <div>
-        <img src="jorik-blom-HP4VFH70LMc-unsplash.jpg"      alt="coffee" width="200px" height="200px">
-        <br>
-            <span>Ice Coffee</span>
-            <br>
-        
-            <pre>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                At nulla fuga laborum dolores, quibusdam error.
-            </pre>
-                <a href="link.html">Coffee</a>
-    </div>
-    </section>
+<body>
+<section class="box1">
+    <h1>Welcome  To Our Book Store!</h1>
+    <span>Our Pricelist:</span>
+    <table>
+        <thead>
+            <th rowspan="9">Books</th> 
+            <th rowspan="6">Price</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Grokking Algorithm  </td>&nbsp;&nbsp;&nbsp;
+                <td>30$</td>
+            </tr>
+            <tr>
+                <td>Clean Code </td>&nbsp;&nbsp;&nbsp;&nbsp;
+                <td>40$</td>
+            </tr>
+            <tr>
+                <td>Python for every body </td>&nbsp;&nbsp;&nbsp;&nbsp;
+                <td>30$</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <ul > <span>Stock</span>
+        <li>
+            <a href="#">Grokking Algorithm </a>
+        </li>
+        <li>
+            <a href="#">Clean Code </a>
+        </li>
+    </ul>
+</section>
+<br>
+
+<hr>
+
+<br>
+<form>
+    <label for="email">Enter your Email&nbsp;&nbsp;&nbsp;&nbsp; </label>
+    <input type="text" id="email" required>
+    <br>
+    <br>
+    <hr>
+    <label for="email">Enter you Name &nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="text" id="email" required>
+    <br>
+    <br>
+    <hr>
+    <label for="email">Enter your Address&nbsp; </label>
+    <input type="text" id="email" required>
+    <br>
+    <br>
+    <hr>
+    <button type="submit">Order New</button>
+    <br>
+    <br>
+</form>
 </body>
 </html>
